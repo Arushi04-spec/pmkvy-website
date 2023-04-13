@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student form</title>
+    <style>
+        body{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body style="background-color:yellow;">
+    <h1>Student registration form</h1>
+    <hr size="3" noshade>
+    <form >
+        <table>
+            <tr>
+                <td>Your name:</td>
+                <td><input type="text" name="Firstname" maxlength="50" placeholder="Arushi"/>(Max 50 characters allowed)</td>
+            </tr>
+            <tr>
+                <td>Last name:</td>
+                <td><input type="text" name="Latname" maxlength="50" placeholder="Nirala"/>(Max 50 characters allowed)</td>
+            </tr>
+            <tr>
+                <td>Mobile number</td>
+                <td> <input type="email" name="youremail" value=""/></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio"name="gender" value=""><label>Male</label>
+                    <input type="radio"name="gender" value=""><label>Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies:</td>
+                <td><input type="checkbox"  value="" /><label>Drawing</label>
+                    <input type="checkbox"  value="" /><label>Reading</label>
+                    <input type="checkbox"  value="" /><label>Coding</label>
+                    <input type="checkbox"  value="" /><label>Others</label>
+                    <input type="text"  maxlength="50" placeholder="others hobbies"/>
+                    (Max 20 characters allowed)
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="name"  cols="80" rows="8"></textarea></td>
+
+            </tr>
+            <tr>
+                <td>Qualification:</td>
+                <td> <input type="checkbox" value="" /><label>High school(10th)</label><br>
+                    <input type="checkbox" value="" /><label>Higher school(12th)</label><br>
+                    <input type="checkbox" value="" /><label>Graduation(Bachelor)</label><br>
+                    <input type="checkbox" value="" /><label>Post Graduation(Masters)</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Date of birth:</td>
+                <td><select name="Day" value="Day">
+                    <option value="Day">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+
+                </select>
+                </td>
+            </tr>
+
+
+
+            
+        </table>
+
+
+
+    </form>
+    
+</body>
+</html>
+
